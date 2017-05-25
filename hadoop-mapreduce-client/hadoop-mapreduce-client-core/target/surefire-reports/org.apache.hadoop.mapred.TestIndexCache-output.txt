@@ -1,0 +1,7 @@
+2017-05-23 00:50:59,869 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:51:00,235 INFO  [main] mapred.IndexCache (IndexCache.java:<init>(47)) - IndexCache created with max memory = 1048576
+2017-05-23 00:51:00,343 INFO  [main] mapred.IndexCache (IndexCache.java:<init>(47)) - IndexCache created with max memory = 1048576
+2017-05-23 00:51:00,392 INFO  [main] mapred.IndexCache (IndexCache.java:<init>(47)) - IndexCache created with max memory = 1048576
+seed: 1813387720887801798
+2017-05-23 00:51:00,446 INFO  [main] mapred.IndexCache (IndexCache.java:<init>(47)) - IndexCache created with max memory = 1048576
+2017-05-23 00:51:01,004 INFO  [main] mapred.IndexCache (IndexCache.java:<init>(47)) - IndexCache created with max memory = 10485760

@@ -1,0 +1,55 @@
+2017-05-23 00:52:57,432 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:52:57,839 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:57,842 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 2 segments left of total size: 40 bytes
+2017-05-23 00:52:57,879 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:<init>(207)) - MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2017-05-23 00:52:58,287 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(478)) - Initiating in-memory merge with 2 segments...
+2017-05-23 00:52:58,288 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,288 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 1 segments left of total size: 57 bytes
+2017-05-23 00:52:58,293 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(499)) - attempt_a_0000_r_000000_0 Merge of the 2 files in-memory complete. Local file is /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/tmp/mapred/local/output/map_1.out.merged of size 89
+2017-05-23 00:52:58,302 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(478)) - Initiating in-memory merge with 2 segments...
+2017-05-23 00:52:58,302 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,302 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 2 segments left of total size: 41 bytes
+2017-05-23 00:52:58,307 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(499)) - attempt_a_0000_r_000000_0 Merge of the 2 files in-memory complete. Local file is /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/tmp/mapred/local/output/map_4.out.merged of size 76
+2017-05-23 00:52:58,317 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(694)) - finalMerge called with 0 in-memory map-outputs and 2 on-disk map-outputs
+2017-05-23 00:52:58,318 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(791)) - Merging 2 files, 165 bytes from disk
+2017-05-23 00:52:58,319 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(806)) - Merging 0 segments, 0 bytes from memory into reduce
+2017-05-23 00:52:58,320 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,329 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 2 segments left of total size: 93 bytes
+2017-05-23 00:52:58,329 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:<init>(207)) - MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2017-05-23 00:52:58,330 INFO  [main] Configuration.deprecation (Configuration.java:logDeprecation(1267)) - io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+2017-05-23 00:52:58,330 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(537)) - OnDiskMerger: We have  2 map outputs on disk. Triggering merge...
+2017-05-23 00:52:58,340 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,344 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 2 segments left of total size: 93 bytes
+2017-05-23 00:52:58,346 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(583)) - attempt_a_0000_r_000003_0 Finished merging 2 map output files on disk of total-size 177. Local output file is /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/tmp/mapred/local/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/tmp/mapred/local/output/map_4.out.merged.merged of size 135
+2017-05-23 00:52:58,348 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(694)) - finalMerge called with 0 in-memory map-outputs and 1 on-disk map-outputs
+2017-05-23 00:52:58,349 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(791)) - Merging 1 files, 135 bytes from disk
+2017-05-23 00:52:58,349 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(806)) - Merging 0 segments, 0 bytes from memory into reduce
+2017-05-23 00:52:58,349 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 1 sorted segments
+2017-05-23 00:52:58,351 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 1 segments left of total size: 99 bytes
+2017-05-23 00:52:58,378 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,379 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 2 segments left of total size: 4000 bytes
+2017-05-23 00:52:58,405 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:<init>(207)) - MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2017-05-23 00:52:58,414 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(478)) - Initiating in-memory merge with 2 segments...
+2017-05-23 00:52:58,414 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,415 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 1 segments left of total size: 57 bytes
+2017-05-23 00:52:58,416 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(499)) - attempt_a_0000_r_000000_0 Merge of the 2 files in-memory complete. Local file is /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/tmp/mapred/local/output/map_1.out.merged of size 65
+2017-05-23 00:52:58,423 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(478)) - Initiating in-memory merge with 2 segments...
+2017-05-23 00:52:58,424 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,424 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 2 segments left of total size: 41 bytes
+2017-05-23 00:52:58,426 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(499)) - attempt_a_0000_r_000000_0 Merge of the 2 files in-memory complete. Local file is /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/tmp/mapred/local/output/map_4.out.merged of size 52
+2017-05-23 00:52:58,428 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(694)) - finalMerge called with 0 in-memory map-outputs and 2 on-disk map-outputs
+2017-05-23 00:52:58,429 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(791)) - Merging 2 files, 117 bytes from disk
+2017-05-23 00:52:58,430 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(806)) - Merging 0 segments, 0 bytes from memory into reduce
+2017-05-23 00:52:58,430 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,431 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 2 segments left of total size: 93 bytes
+2017-05-23 00:52:58,431 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:<init>(207)) - MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2017-05-23 00:52:58,432 INFO  [main] Configuration.deprecation (Configuration.java:logDeprecation(1267)) - io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+2017-05-23 00:52:58,432 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(537)) - OnDiskMerger: We have  2 map outputs on disk. Triggering merge...
+2017-05-23 00:52:58,441 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 2 sorted segments
+2017-05-23 00:52:58,442 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 2 segments left of total size: 93 bytes
+2017-05-23 00:52:58,444 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:merge(583)) - attempt_a_0000_r_000003_0 Finished merging 2 map output files on disk of total-size 129. Local output file is /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/tmp/mapred/local/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/tmp/mapred/local/output/map_4.out.merged.merged of size 111
+2017-05-23 00:52:58,445 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(694)) - finalMerge called with 0 in-memory map-outputs and 1 on-disk map-outputs
+2017-05-23 00:52:58,446 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(791)) - Merging 1 files, 111 bytes from disk
+2017-05-23 00:52:58,446 INFO  [main] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(806)) - Merging 0 segments, 0 bytes from memory into reduce
+2017-05-23 00:52:58,447 INFO  [main] mapred.Merger (Merger.java:merge(606)) - Merging 1 sorted segments
+2017-05-23 00:52:58,447 INFO  [main] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 1 segments left of total size: 99 bytes

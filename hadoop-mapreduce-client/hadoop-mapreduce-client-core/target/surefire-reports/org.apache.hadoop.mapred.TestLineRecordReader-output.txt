@@ -1,0 +1,14 @@
+2017-05-23 00:51:23,517 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:51:24,033 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:24,322 INFO  [main] mapred.LineRecordReader (LineRecordReader.java:skipUtfByteOrderMark(228)) - Found UTF-8 BOM and skipped it
+2017-05-23 00:51:25,081 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,081 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,081 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,082 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,082 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,084 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,084 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,084 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,085 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:25,096 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.bz2]
+2017-05-23 00:51:40,012 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.gz]

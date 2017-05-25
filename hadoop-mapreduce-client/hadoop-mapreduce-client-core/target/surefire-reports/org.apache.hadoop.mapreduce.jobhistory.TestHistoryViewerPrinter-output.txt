@@ -1,0 +1,207 @@
+2017-05-23 00:52:10,499 INFO  [main] jobhistory.TestHistoryViewerPrinter (TestHistoryViewerPrinter.java:run(868)) - out = 
+Hadoop job: job_1317928501754_0001
+=====================================
+User: rkanter
+JobName: my job
+JobConf: /tmp/job.xml
+Submitted At: 6-十月-2011 19:15:01
+Launched At: 6-十月-2011 19:15:02 (1sec)
+Finished At: 6-十月-2011 19:15:16 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|group1                        |counter1                      |5         |5         |5         
+|group1                        |counter2                      |10        |10        |10        
+|group2                        |counter1                      |15        |15        |15        
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	1	1		0	0	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)
+Map	6	5		1	0	6-十月-2011 19:15:04	6-十月-2011 19:15:16 (12sec)
+Reduce	1	1		0	0	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)
+Cleanup	1	1		0	0	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_m_000007 7sec
+task_1317928501754_0001_m_000006 6sec
+task_1317928501754_0001_m_000005 5sec
+task_1317928501754_0001_m_000004 4sec
+task_1317928501754_0001_m_000003 3sec
+The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-十月-2011 19:15:16 (14sec)
+
+Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec
+Average time taken by shuffle tasks: 8sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 8sec
+The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+
+Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 0sec
+The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+=========
+
+FAILED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000002	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)		
+
+FAILED task attempts by nodes
+Hostname	FailedTasks
+===============================
+localhost	task_1317928501754_0001_m_000002, 
+
+2017-05-23 00:52:10,520 INFO  [main] jobhistory.TestHistoryViewerPrinter (TestHistoryViewerPrinter.java:run(868)) - out = 
+Hadoop job: job_1317928501754_0001
+=====================================
+User: rkanter
+JobName: my job
+JobConf: /tmp/job.xml
+Submitted At: 6-十月-2011 19:15:01
+Launched At: 6-十月-2011 19:15:02 (1sec)
+Finished At: 6-十月-2011 19:15:16 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|group1                        |counter1                      |5         |5         |5         
+|group1                        |counter2                      |10        |10        |10        
+|group2                        |counter1                      |15        |15        |15        
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	1	1		0	0	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)
+Map	6	5		1	0	6-十月-2011 19:15:04	6-十月-2011 19:15:16 (12sec)
+Reduce	1	1		0	0	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)
+Cleanup	1	1		0	0	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_m_000007 7sec
+task_1317928501754_0001_m_000006 6sec
+task_1317928501754_0001_m_000005 5sec
+task_1317928501754_0001_m_000004 4sec
+task_1317928501754_0001_m_000003 3sec
+The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-十月-2011 19:15:16 (14sec)
+
+Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec
+Average time taken by shuffle tasks: 8sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 8sec
+The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+
+Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 0sec
+The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+=========
+
+FAILED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000002	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)		
+
+SUCCEEDED JOB_SETUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_s_000001	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)	
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000007	6-十月-2011 19:15:09	6-十月-2011 19:15:16 (7sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000006	6-十月-2011 19:15:08	6-十月-2011 19:15:14 (6sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000005	6-十月-2011 19:15:07	6-十月-2011 19:15:12 (5sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000004	6-十月-2011 19:15:06	6-十月-2011 19:15:10 (4sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000003	6-十月-2011 19:15:05	6-十月-2011 19:15:08 (3sec)		
+
+SUCCEEDED REDUCE task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_r_000008	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)	
+
+SUCCEEDED JOB_CLEANUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_c_000009	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)	
+
+JOB_SETUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_s_000001_1	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_s_000001_1
+
+MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_m_000007_1	6-十月-2011 19:15:09	6-十月-2011 19:15:16 (7sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000007_1
+attempt_1317928501754_0001_m_000002_1	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000002_1
+attempt_1317928501754_0001_m_000006_1	6-十月-2011 19:15:08	6-十月-2011 19:15:14 (6sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000006_1
+attempt_1317928501754_0001_m_000005_1	6-十月-2011 19:15:07	6-十月-2011 19:15:12 (5sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000005_1
+attempt_1317928501754_0001_m_000004_1	6-十月-2011 19:15:06	6-十月-2011 19:15:10 (4sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000004_1
+attempt_1317928501754_0001_m_000003_1	6-十月-2011 19:15:05	6-十月-2011 19:15:08 (3sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000003_1
+
+REDUCE task list for job_1317928501754_0001
+TaskId		StartTime	ShuffleFinished	SortFinished	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_r_000008_1	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)	6-十月-2011 19:15:18 (0sec)6-十月-2011 19:15:18 (8sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_r_000008_1
+
+JOB_CLEANUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_c_000009_1	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_c_000009_1
+
+FAILED task attempts by nodes
+Hostname	FailedTasks
+===============================
+localhost	task_1317928501754_0001_m_000002, 
+
+2017-05-23 00:52:10,544 INFO  [main] jobhistory.TestHistoryViewerPrinter (TestHistoryViewerPrinter.java:run(868)) - out = {"hadoopJob":"job_1317928501754_0001","user":"rkanter","jobName":"my job","jobConf":"\/tmp\/job.xml","submittedAt":1317928501754,"launchedAt":1317928502754,"finishedAt":1317928516754,"status":"SUCCEEDED","counters":{"group1":[{"counterName":"counter1","mapValue":5,"reduceValue":5,"totalValue":5},{"counterName":"counter2","mapValue":10,"reduceValue":10,"totalValue":10}],"group2":[{"counterName":"counter1","mapValue":15,"reduceValue":15,"totalValue":15}]},"taskSummary":{"setup":{"total":1,"successful":1,"failed":0,"killed":0,"startTime":1317928503754,"finishTime":1317928504754},"map":{"total":6,"successful":5,"failed":1,"killed":0,"startTime":1317928504754,"finishTime":1317928516754},"reduce":{"total":1,"successful":1,"failed":0,"killed":0,"startTime":1317928510754,"finishTime":1317928518754},"cleanup":{"total":1,"successful":1,"failed":0,"killed":0,"startTime":1317928511754,"finishTime":1317928520754}},"tasks":[{"taskId":"task_1317928501754_0001_c_000009","type":"JOB_CLEANUP","status":"SUCCEEDED","startTime":1317928511754,"finishTime":1317928520754,"counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_c_000009_1","startTime":1317928511754,"finishTime":1317928520754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_c_000009_1"}},{"taskId":"task_1317928501754_0001_r_000008","type":"REDUCE","status":"SUCCEEDED","startTime":1317928510754,"finishTime":1317928518754,"counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_r_000008_1","startTime":1317928510754,"shuffleFinished":1317928518754,"sortFinished":1317928518754,"finishTime":1317928518754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_r_000008_1"}},{"taskId":"task_1317928501754_0001_m_000007","type":"MAP","status":"SUCCEEDED","startTime":1317928509754,"finishTime":1317928516754,"inputSplits":"","counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_m_000007_1","startTime":1317928509754,"finishTime":1317928516754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_m_000007_1"}},{"taskId":"task_1317928501754_0001_m_000002","type":"MAP","status":"FAILED","startTime":1317928504754,"finishTime":1317928506754,"inputSplits":"","counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_m_000002_1","startTime":1317928504754,"finishTime":1317928506754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_m_000002_1"}},{"taskId":"task_1317928501754_0001_s_000001","type":"JOB_SETUP","status":"SUCCEEDED","startTime":1317928503754,"finishTime":1317928504754,"counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_s_000001_1","startTime":1317928503754,"finishTime":1317928504754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_s_000001_1"}},{"taskId":"task_1317928501754_0001_m_000006","type":"MAP","status":"SUCCEEDED","startTime":1317928508754,"finishTime":1317928514754,"inputSplits":"","counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_m_000006_1","startTime":1317928508754,"finishTime":1317928514754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_m_000006_1"}},{"taskId":"task_1317928501754_0001_m_000005","type":"MAP","status":"SUCCEEDED","startTime":1317928507754,"finishTime":1317928512754,"inputSplits":"","counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_m_000005_1","startTime":1317928507754,"finishTime":1317928512754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_m_000005_1"}},{"taskId":"task_1317928501754_0001_m_000004","type":"MAP","status":"SUCCEEDED","startTime":1317928506754,"finishTime":1317928510754,"inputSplits":"","counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_m_000004_1","startTime":1317928506754,"finishTime":1317928510754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_m_000004_1"}},{"taskId":"task_1317928501754_0001_m_000003","type":"MAP","status":"SUCCEEDED","startTime":1317928505754,"finishTime":1317928508754,"inputSplits":"","counters":{"group1":[{"counterName":"counter1","value":5},{"counterName":"counter2","value":10}],"group2":[{"counterName":"counter1","value":15}]},"attempts":{"attemptId":"attempt_1317928501754_0001_m_000003_1","startTime":1317928505754,"finishTime":1317928508754,"hostName":"localhost","taskLogs":"http:\/\/t:1234\/tasklog?attemptid=attempt_1317928501754_0001_m_000003_1"}}]}
+2017-05-23 00:52:10,569 INFO  [main] jobhistory.TestHistoryViewerPrinter (TestHistoryViewerPrinter.java:run(868)) - out = {"hadoopJob":"job_1317928501754_0001","user":"rkanter","jobName":"my job","jobConf":"\/tmp\/job.xml","submittedAt":1317928501754,"launchedAt":1317928502754,"finishedAt":1317928516754,"status":"SUCCEEDED","counters":{"group1":[{"counterName":"counter1","mapValue":5,"reduceValue":5,"totalValue":5},{"counterName":"counter2","mapValue":10,"reduceValue":10,"totalValue":10}],"group2":[{"counterName":"counter1","mapValue":15,"reduceValue":15,"totalValue":15}]},"taskSummary":{"setup":{"total":1,"successful":1,"failed":0,"killed":0,"startTime":1317928503754,"finishTime":1317928504754},"map":{"total":6,"successful":5,"failed":1,"killed":0,"startTime":1317928504754,"finishTime":1317928516754},"reduce":{"total":1,"successful":1,"failed":0,"killed":0,"startTime":1317928510754,"finishTime":1317928518754},"cleanup":{"total":1,"successful":1,"failed":0,"killed":0,"startTime":1317928511754,"finishTime":1317928520754}},"tasks":[{"taskId":"task_1317928501754_0001_m_000002","type":"MAP","status":"FAILED","startTime":1317928504754,"finishTime":1317928506754,"inputSplits":""}]}

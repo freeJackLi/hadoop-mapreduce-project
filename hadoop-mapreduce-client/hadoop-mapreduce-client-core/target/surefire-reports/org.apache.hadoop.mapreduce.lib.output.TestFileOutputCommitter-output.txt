@@ -1,0 +1,152 @@
+2017-05-23 00:52:35,296 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:52:35,713 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:35,713 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:35,741 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:35,741 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:35,783 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/0/task_200707121733_0001_m_000000
+2017-05-23 00:52:35,855 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:35,856 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:35,876 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:35,876 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:35,917 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:35,983 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:35,983 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,004 INFO  [pool-2-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,004 INFO  [pool-2-thread-2] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,004 INFO  [pool-2-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,004 INFO  [pool-2-thread-2] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,027 INFO  [pool-2-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/0/task_200707121733_0001_m_000000
+2017-05-23 00:52:36,032 INFO  [pool-2-thread-2] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000001_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/0/task_200707121733_0001_m_000001
+2017-05-23 00:52:36,074 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,074 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,089 INFO  [pool-3-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,089 INFO  [pool-3-thread-2] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,089 INFO  [pool-3-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,090 INFO  [pool-3-thread-2] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,117 INFO  [pool-3-thread-2] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000001_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:36,118 INFO  [pool-3-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:36,151 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,152 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,167 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,167 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,216 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,216 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,235 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,236 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,282 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,282 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,301 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,301 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,381 INFO  [main] compress.CodecPool (CodecPool.java:getCompressor(153)) - Got brand-new compressor [.deflate]
+2017-05-23 00:52:36,393 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/0/task_200707121733_0001_m_000000
+2017-05-23 00:52:36,455 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.deflate]
+2017-05-23 00:52:36,456 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.deflate]
+2017-05-23 00:52:36,458 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.deflate]
+2017-05-23 00:52:36,459 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.deflate]
+2017-05-23 00:52:36,514 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,514 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,532 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,532 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,566 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:36,573 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.deflate]
+2017-05-23 00:52:36,574 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.deflate]
+2017-05-23 00:52:36,574 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.deflate]
+2017-05-23 00:52:36,574 INFO  [main] compress.CodecPool (CodecPool.java:getDecompressor(184)) - Got brand-new decompressor [.deflate]
+2017-05-23 00:52:36,595 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 3
+2017-05-23 00:52:36,612 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,612 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,626 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,627 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,640 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/1/task_200707121733_0001_m_000000
+2017-05-23 00:52:36,641 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,641 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,682 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,682 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,699 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,700 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,724 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:36,724 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,725 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,757 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:recoverTask(702)) - Done recovering task attempt_200707121733_0001_m_000000_0
+2017-05-23 00:52:36,786 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,786 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,799 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,799 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,814 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/0/task_200707121733_0001_m_000000
+2017-05-23 00:52:36,842 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,842 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,859 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,859 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,884 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:36,928 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,928 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,956 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:36,956 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,976 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/1/task_200707121733_0001_m_000000
+2017-05-23 00:52:36,978 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:36,978 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:36,986 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:recoverTask(697)) - Recovering task for upgrading scenario, moving files from file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/1/task_200707121733_0001_m_000000 to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:36,987 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:recoverTask(702)) - Done recovering task attempt_200707121733_0001_m_000000_0
+2017-05-23 00:52:37,012 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:37,012 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,028 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:37,028 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,058 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/0/task_200707121733_0001_m_000000
+2017-05-23 00:52:37,098 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:37,098 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,115 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:37,116 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,131 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:37,156 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:37,157 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,170 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:37,170 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,185 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/0/task_200707121733_0001_m_000000
+2017-05-23 00:52:37,203 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:37,204 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,225 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:37,225 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,247 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter/_temporary/0/task_200707121733_0001_m_000000
+2017-05-23 00:52:37,281 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:37,281 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,294 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:37,295 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,309 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:37,321 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:37,321 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,336 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:37,336 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,351 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(587)) - Saved output of task 'attempt_200707121733_0001_m_000000_0' to file:/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter
+2017-05-23 00:52:37,357 WARN  [main] output.FileOutputCommitter (FileOutputCommitter.java:commitJob(370)) - Exception get thrown in job commit, retry (1) time.
+java.io.IOException
+	at org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter$CommitterWithFailedThenSucceed.commitJobInternal(TestFileOutputCommitter.java:775)
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitJob(FileOutputCommitter.java:364)
+	at org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter.testCommitterWithFailureInternal(TestFileOutputCommitter.java:378)
+	at org.apache.hadoop.mapreduce.lib.output.TestFileOutputCommitter.testCommitterWithFailureV2(TestFileOutputCommitter.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+2017-05-23 00:52:37,388 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:37,388 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,405 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2017-05-23 00:52:37,405 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,439 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:37,439 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:37,452 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:37,452 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false

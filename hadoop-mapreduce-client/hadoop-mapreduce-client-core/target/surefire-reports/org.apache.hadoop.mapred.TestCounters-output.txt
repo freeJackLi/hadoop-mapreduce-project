@@ -1,0 +1,5 @@
+2017-05-23 00:50:53,602 WARN  [main] counters.FileSystemCounterGroup (FileSystemCounterGroup.java:findCounter(203)) - Unknown is not a recognized counter.
+2017-05-23 00:50:53,629 WARN  [main] counters.FrameworkCounterGroup (FrameworkCounterGroup.java:findCounter(198)) - Unknown is not a recognized counter.
+2017-05-23 00:50:53,780 WARN  [main] mapreduce.Counters (AbstractCounters.java:getGroup(234)) - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2017-05-23 00:50:53,780 WARN  [main] mapreduce.Counters (AbstractCounters.java:getGroup(234)) - Group org.apache.hadoop.mapred.JobInProgress$Counter is deprecated. Use org.apache.hadoop.mapreduce.JobCounter instead
+2017-05-23 00:50:53,781 WARN  [main] mapreduce.Counters (AbstractCounters.java:getGroup(234)) - Group FileSystemCounters is deprecated. Use org.apache.hadoop.mapreduce.FileSystemCounter instead

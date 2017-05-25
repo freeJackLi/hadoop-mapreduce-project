@@ -1,0 +1,3 @@
+2017-05-23 00:52:41,074 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 2
+2017-05-23 00:52:41,078 INFO  [main] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2017-05-23 00:52:41,100 INFO  [main] output.PartialFileOutputCommitter (PartialFileOutputCommitter.java:cleanUpPartialOutputForTask(89)) - cleanUpPartialOutputForTask: removing everything belonging to task_1363718006656_0001_r_000014 in: hdfs://user/hadoop/out/_temporary/1

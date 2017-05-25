@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.hadoop.mapreduce.jobhistory.TestHistoryViewerPrinter" time="0.393" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="idea.version" value="2017.1.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_v/n4k7px612k5fpszm9843mw3r0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lixiuliang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.4"/>
+    <property name="user.home" value="/Users/lixiuliang"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="lixiuliang"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1.2 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/lixiuliang/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testHumanPrinter" classname="org.apache.hadoop.mapreduce.jobhistory.TestHistoryViewerPrinter" time="0.331">
+    <failure message="expected:&lt;...xml&#10;Submitted At: 6-[Oct-2011 19:15:01&#10;Launched At: 6-Oct-2011 19:15:02 (1sec)&#10;Finished At: 6-Oct-2011 19:15:16 (14sec)&#10;Status: SUCCEEDED&#10;Counters: &#10;&#10;|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|&#10;---------------------------------------------------------------------------------------&#10;|group1                        |counter1                      |5         |5         |5         &#10;|group1                        |counter2                      |10        |10        |10        &#10;|group2                        |counter1                      |15        |15        |15        &#10;&#10;=====================================&#10;&#10;Task Summary&#10;============================&#10;Kind	Total	Successful	Failed	Killed	StartTime	FinishTime&#10;&#10;Setup	1	1		0	0	6-Oct-2011 19:15:03	6-Oct-2011 19:15:04 (1sec)&#10;Map	6	5		1	0	6-Oct-2011 19:15:04	6-Oct-2011 19:15:16 (12sec)&#10;Reduce	1	1		0	0	6-Oct-2011 19:15:10	6-Oct-2011 19:15:18 (8sec)&#10;Cleanup	1	1		0	0	6-Oct-2011 19:15:11	6-Oct-2011 19:15:20 (9sec)&#10;============================&#10;&#10;&#10;Analysis&#10;=========&#10;&#10;Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec&#10;Average time taken by map tasks: 5sec&#10;Worse performing map tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_m_000007 7sec&#10;task_1317928501754_0001_m_000006 6sec&#10;task_1317928501754_0001_m_000005 5sec&#10;task_1317928501754_0001_m_000004 4sec&#10;task_1317928501754_0001_m_000003 3sec&#10;The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-Oct-2011 19:15:16 (14sec)&#10;&#10;Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec&#10;Average time taken by shuffle tasks: 8sec&#10;Worse performing shuffle tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_r_000008 8sec&#10;The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-Oct-2011 19:15:18 (16sec)&#10;&#10;Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec&#10;Average time taken by reduce tasks: 0sec&#10;Worse performing reduce tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_r_000008 0sec&#10;The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-Oct-2011 19:15:18 (16sec)&#10;=========&#10;&#10;FAILED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000002	6-Oct-2011 19:15:04	6-Oct]-2011 19:15:06 (2sec...&gt; but was:&lt;...xml&#10;Submitted At: 6-[十月-2011 19:15:01&#10;Launched At: 6-十月-2011 19:15:02 (1sec)&#10;Finished At: 6-十月-2011 19:15:16 (14sec)&#10;Status: SUCCEEDED&#10;Counters: &#10;&#10;|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|&#10;---------------------------------------------------------------------------------------&#10;|group1                        |counter1                      |5         |5         |5         &#10;|group1                        |counter2                      |10        |10        |10        &#10;|group2                        |counter1                      |15        |15        |15        &#10;&#10;=====================================&#10;&#10;Task Summary&#10;============================&#10;Kind	Total	Successful	Failed	Killed	StartTime	FinishTime&#10;&#10;Setup	1	1		0	0	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)&#10;Map	6	5		1	0	6-十月-2011 19:15:04	6-十月-2011 19:15:16 (12sec)&#10;Reduce	1	1		0	0	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)&#10;Cleanup	1	1		0	0	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)&#10;============================&#10;&#10;&#10;Analysis&#10;=========&#10;&#10;Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec&#10;Average time taken by map tasks: 5sec&#10;Worse performing map tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_m_000007 7sec&#10;task_1317928501754_0001_m_000006 6sec&#10;task_1317928501754_0001_m_000005 5sec&#10;task_1317928501754_0001_m_000004 4sec&#10;task_1317928501754_0001_m_000003 3sec&#10;The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-十月-2011 19:15:16 (14sec)&#10;&#10;Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec&#10;Average time taken by shuffle tasks: 8sec&#10;Worse performing shuffle tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_r_000008 8sec&#10;The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)&#10;&#10;Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec&#10;Average time taken by reduce tasks: 0sec&#10;Worse performing reduce tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_r_000008 0sec&#10;The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)&#10;=========&#10;&#10;FAILED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000002	6-十月-2011 19:15:04	6-十月]-2011 19:15:06 (2sec...&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...xml
+Submitted At: 6-[Oct-2011 19:15:01
+Launched At: 6-Oct-2011 19:15:02 (1sec)
+Finished At: 6-Oct-2011 19:15:16 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|group1                        |counter1                      |5         |5         |5         
+|group1                        |counter2                      |10        |10        |10        
+|group2                        |counter1                      |15        |15        |15        
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	1	1		0	0	6-Oct-2011 19:15:03	6-Oct-2011 19:15:04 (1sec)
+Map	6	5		1	0	6-Oct-2011 19:15:04	6-Oct-2011 19:15:16 (12sec)
+Reduce	1	1		0	0	6-Oct-2011 19:15:10	6-Oct-2011 19:15:18 (8sec)
+Cleanup	1	1		0	0	6-Oct-2011 19:15:11	6-Oct-2011 19:15:20 (9sec)
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_m_000007 7sec
+task_1317928501754_0001_m_000006 6sec
+task_1317928501754_0001_m_000005 5sec
+task_1317928501754_0001_m_000004 4sec
+task_1317928501754_0001_m_000003 3sec
+The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-Oct-2011 19:15:16 (14sec)
+
+Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec
+Average time taken by shuffle tasks: 8sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 8sec
+The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-Oct-2011 19:15:18 (16sec)
+
+Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 0sec
+The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-Oct-2011 19:15:18 (16sec)
+=========
+
+FAILED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000002	6-Oct-2011 19:15:04	6-Oct]-2011 19:15:06 (2sec...> but was:<...xml
+Submitted At: 6-[十月-2011 19:15:01
+Launched At: 6-十月-2011 19:15:02 (1sec)
+Finished At: 6-十月-2011 19:15:16 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|group1                        |counter1                      |5         |5         |5         
+|group1                        |counter2                      |10        |10        |10        
+|group2                        |counter1                      |15        |15        |15        
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	1	1		0	0	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)
+Map	6	5		1	0	6-十月-2011 19:15:04	6-十月-2011 19:15:16 (12sec)
+Reduce	1	1		0	0	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)
+Cleanup	1	1		0	0	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_m_000007 7sec
+task_1317928501754_0001_m_000006 6sec
+task_1317928501754_0001_m_000005 5sec
+task_1317928501754_0001_m_000004 4sec
+task_1317928501754_0001_m_000003 3sec
+The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-十月-2011 19:15:16 (14sec)
+
+Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec
+Average time taken by shuffle tasks: 8sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 8sec
+The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+
+Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 0sec
+The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+=========
+
+FAILED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000002	6-十月-2011 19:15:04	6-十月]-2011 19:15:06 (2sec...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.hadoop.mapreduce.jobhistory.TestHistoryViewerPrinter.testHumanPrinter(TestHistoryViewerPrinter.java:51)
+]]></failure>
+    <system-out><![CDATA[2017-05-23 00:52:10,499 INFO  [main] jobhistory.TestHistoryViewerPrinter (TestHistoryViewerPrinter.java:run(868)) - out = 
+Hadoop job: job_1317928501754_0001
+=====================================
+User: rkanter
+JobName: my job
+JobConf: /tmp/job.xml
+Submitted At: 6-十月-2011 19:15:01
+Launched At: 6-十月-2011 19:15:02 (1sec)
+Finished At: 6-十月-2011 19:15:16 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|group1                        |counter1                      |5         |5         |5         
+|group1                        |counter2                      |10        |10        |10        
+|group2                        |counter1                      |15        |15        |15        
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	1	1		0	0	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)
+Map	6	5		1	0	6-十月-2011 19:15:04	6-十月-2011 19:15:16 (12sec)
+Reduce	1	1		0	0	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)
+Cleanup	1	1		0	0	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_m_000007 7sec
+task_1317928501754_0001_m_000006 6sec
+task_1317928501754_0001_m_000005 5sec
+task_1317928501754_0001_m_000004 4sec
+task_1317928501754_0001_m_000003 3sec
+The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-十月-2011 19:15:16 (14sec)
+
+Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec
+Average time taken by shuffle tasks: 8sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 8sec
+The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+
+Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 0sec
+The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+=========
+
+FAILED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000002	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)		
+
+FAILED task attempts by nodes
+Hostname	FailedTasks
+===============================
+localhost	task_1317928501754_0001_m_000002, 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testHumanPrinterAll" classname="org.apache.hadoop.mapreduce.jobhistory.TestHistoryViewerPrinter" time="0.017">
+    <failure message="expected:&lt;...xml&#10;Submitted At: 6-[Oct-2011 19:15:01&#10;Launched At: 6-Oct-2011 19:15:02 (1sec)&#10;Finished At: 6-Oct-2011 19:15:16 (14sec)&#10;Status: SUCCEEDED&#10;Counters: &#10;&#10;|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|&#10;---------------------------------------------------------------------------------------&#10;|group1                        |counter1                      |5         |5         |5         &#10;|group1                        |counter2                      |10        |10        |10        &#10;|group2                        |counter1                      |15        |15        |15        &#10;&#10;=====================================&#10;&#10;Task Summary&#10;============================&#10;Kind	Total	Successful	Failed	Killed	StartTime	FinishTime&#10;&#10;Setup	1	1		0	0	6-Oct-2011 19:15:03	6-Oct-2011 19:15:04 (1sec)&#10;Map	6	5		1	0	6-Oct-2011 19:15:04	6-Oct-2011 19:15:16 (12sec)&#10;Reduce	1	1		0	0	6-Oct-2011 19:15:10	6-Oct-2011 19:15:18 (8sec)&#10;Cleanup	1	1		0	0	6-Oct-2011 19:15:11	6-Oct-2011 19:15:20 (9sec)&#10;============================&#10;&#10;&#10;Analysis&#10;=========&#10;&#10;Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec&#10;Average time taken by map tasks: 5sec&#10;Worse performing map tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_m_000007 7sec&#10;task_1317928501754_0001_m_000006 6sec&#10;task_1317928501754_0001_m_000005 5sec&#10;task_1317928501754_0001_m_000004 4sec&#10;task_1317928501754_0001_m_000003 3sec&#10;The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-Oct-2011 19:15:16 (14sec)&#10;&#10;Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec&#10;Average time taken by shuffle tasks: 8sec&#10;Worse performing shuffle tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_r_000008 8sec&#10;The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-Oct-2011 19:15:18 (16sec)&#10;&#10;Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec&#10;Average time taken by reduce tasks: 0sec&#10;Worse performing reduce tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_r_000008 0sec&#10;The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-Oct-2011 19:15:18 (16sec)&#10;=========&#10;&#10;FAILED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000002	6-Oct-2011 19:15:04	6-Oct-2011 19:15:06 (2sec)		&#10;&#10;SUCCEEDED JOB_SETUP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error&#10;====================================================&#10;task_1317928501754_0001_s_000001	6-Oct-2011 19:15:03	6-Oct-2011 19:15:04 (1sec)	&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000007	6-Oct-2011 19:15:09	6-Oct-2011 19:15:16 (7sec)		&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000006	6-Oct-2011 19:15:08	6-Oct-2011 19:15:14 (6sec)		&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000005	6-Oct-2011 19:15:07	6-Oct-2011 19:15:12 (5sec)		&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000004	6-Oct-2011 19:15:06	6-Oct-2011 19:15:10 (4sec)		&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000003	6-Oct-2011 19:15:05	6-Oct-2011 19:15:08 (3sec)		&#10;&#10;SUCCEEDED REDUCE task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error&#10;====================================================&#10;task_1317928501754_0001_r_000008	6-Oct-2011 19:15:10	6-Oct-2011 19:15:18 (8sec)	&#10;&#10;SUCCEEDED JOB_CLEANUP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error&#10;====================================================&#10;task_1317928501754_0001_c_000009	6-Oct-2011 19:15:11	6-Oct-2011 19:15:20 (9sec)	&#10;&#10;JOB_SETUP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	HostName	Error	TaskLogs&#10;====================================================&#10;attempt_1317928501754_0001_s_000001_1	6-Oct-2011 19:15:03	6-Oct-2011 19:15:04 (1sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_s_000001_1&#10;&#10;MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	HostName	Error	TaskLogs&#10;====================================================&#10;attempt_1317928501754_0001_m_000007_1	6-Oct-2011 19:15:09	6-Oct-2011 19:15:16 (7sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000007_1&#10;attempt_1317928501754_0001_m_000002_1	6-Oct-2011 19:15:04	6-Oct-2011 19:15:06 (2sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000002_1&#10;attempt_1317928501754_0001_m_000006_1	6-Oct-2011 19:15:08	6-Oct-2011 19:15:14 (6sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000006_1&#10;attempt_1317928501754_0001_m_000005_1	6-Oct-2011 19:15:07	6-Oct-2011 19:15:12 (5sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000005_1&#10;attempt_1317928501754_0001_m_000004_1	6-Oct-2011 19:15:06	6-Oct-2011 19:15:10 (4sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000004_1&#10;attempt_1317928501754_0001_m_000003_1	6-Oct-2011 19:15:05	6-Oct-2011 19:15:08 (3sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000003_1&#10;&#10;REDUCE task list for job_1317928501754_0001&#10;TaskId		StartTime	ShuffleFinished	SortFinished	FinishTime	HostName	Error	TaskLogs&#10;====================================================&#10;attempt_1317928501754_0001_r_000008_1	6-Oct-2011 19:15:10	6-Oct-2011 19:15:18 (8sec)	6-Oct-2011 19:15:18 (0sec)6-Oct-2011 19:15:18 (8sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_r_000008_1&#10;&#10;JOB_CLEANUP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	HostName	Error	TaskLogs&#10;====================================================&#10;attempt_1317928501754_0001_c_000009_1	6-Oct-2011 19:15:11	6-Oct]-2011 19:15:20 (9sec...&gt; but was:&lt;...xml&#10;Submitted At: 6-[十月-2011 19:15:01&#10;Launched At: 6-十月-2011 19:15:02 (1sec)&#10;Finished At: 6-十月-2011 19:15:16 (14sec)&#10;Status: SUCCEEDED&#10;Counters: &#10;&#10;|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|&#10;---------------------------------------------------------------------------------------&#10;|group1                        |counter1                      |5         |5         |5         &#10;|group1                        |counter2                      |10        |10        |10        &#10;|group2                        |counter1                      |15        |15        |15        &#10;&#10;=====================================&#10;&#10;Task Summary&#10;============================&#10;Kind	Total	Successful	Failed	Killed	StartTime	FinishTime&#10;&#10;Setup	1	1		0	0	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)&#10;Map	6	5		1	0	6-十月-2011 19:15:04	6-十月-2011 19:15:16 (12sec)&#10;Reduce	1	1		0	0	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)&#10;Cleanup	1	1		0	0	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)&#10;============================&#10;&#10;&#10;Analysis&#10;=========&#10;&#10;Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec&#10;Average time taken by map tasks: 5sec&#10;Worse performing map tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_m_000007 7sec&#10;task_1317928501754_0001_m_000006 6sec&#10;task_1317928501754_0001_m_000005 5sec&#10;task_1317928501754_0001_m_000004 4sec&#10;task_1317928501754_0001_m_000003 3sec&#10;The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-十月-2011 19:15:16 (14sec)&#10;&#10;Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec&#10;Average time taken by shuffle tasks: 8sec&#10;Worse performing shuffle tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_r_000008 8sec&#10;The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)&#10;&#10;Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec&#10;Average time taken by reduce tasks: 0sec&#10;Worse performing reduce tasks: &#10;TaskId		Timetaken&#10;task_1317928501754_0001_r_000008 0sec&#10;The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)&#10;=========&#10;&#10;FAILED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000002	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)		&#10;&#10;SUCCEEDED JOB_SETUP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error&#10;====================================================&#10;task_1317928501754_0001_s_000001	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)	&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000007	6-十月-2011 19:15:09	6-十月-2011 19:15:16 (7sec)		&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000006	6-十月-2011 19:15:08	6-十月-2011 19:15:14 (6sec)		&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000005	6-十月-2011 19:15:07	6-十月-2011 19:15:12 (5sec)		&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000004	6-十月-2011 19:15:06	6-十月-2011 19:15:10 (4sec)		&#10;&#10;SUCCEEDED MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error	InputSplits&#10;====================================================&#10;task_1317928501754_0001_m_000003	6-十月-2011 19:15:05	6-十月-2011 19:15:08 (3sec)		&#10;&#10;SUCCEEDED REDUCE task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error&#10;====================================================&#10;task_1317928501754_0001_r_000008	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)	&#10;&#10;SUCCEEDED JOB_CLEANUP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	Error&#10;====================================================&#10;task_1317928501754_0001_c_000009	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)	&#10;&#10;JOB_SETUP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	HostName	Error	TaskLogs&#10;====================================================&#10;attempt_1317928501754_0001_s_000001_1	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_s_000001_1&#10;&#10;MAP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	HostName	Error	TaskLogs&#10;====================================================&#10;attempt_1317928501754_0001_m_000007_1	6-十月-2011 19:15:09	6-十月-2011 19:15:16 (7sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000007_1&#10;attempt_1317928501754_0001_m_000002_1	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000002_1&#10;attempt_1317928501754_0001_m_000006_1	6-十月-2011 19:15:08	6-十月-2011 19:15:14 (6sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000006_1&#10;attempt_1317928501754_0001_m_000005_1	6-十月-2011 19:15:07	6-十月-2011 19:15:12 (5sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000005_1&#10;attempt_1317928501754_0001_m_000004_1	6-十月-2011 19:15:06	6-十月-2011 19:15:10 (4sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000004_1&#10;attempt_1317928501754_0001_m_000003_1	6-十月-2011 19:15:05	6-十月-2011 19:15:08 (3sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000003_1&#10;&#10;REDUCE task list for job_1317928501754_0001&#10;TaskId		StartTime	ShuffleFinished	SortFinished	FinishTime	HostName	Error	TaskLogs&#10;====================================================&#10;attempt_1317928501754_0001_r_000008_1	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)	6-十月-2011 19:15:18 (0sec)6-十月-2011 19:15:18 (8sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_r_000008_1&#10;&#10;JOB_CLEANUP task list for job_1317928501754_0001&#10;TaskId		StartTime	FinishTime	HostName	Error	TaskLogs&#10;====================================================&#10;attempt_1317928501754_0001_c_000009_1	6-十月-2011 19:15:11	6-十月]-2011 19:15:20 (9sec...&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...xml
+Submitted At: 6-[Oct-2011 19:15:01
+Launched At: 6-Oct-2011 19:15:02 (1sec)
+Finished At: 6-Oct-2011 19:15:16 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|group1                        |counter1                      |5         |5         |5         
+|group1                        |counter2                      |10        |10        |10        
+|group2                        |counter1                      |15        |15        |15        
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	1	1		0	0	6-Oct-2011 19:15:03	6-Oct-2011 19:15:04 (1sec)
+Map	6	5		1	0	6-Oct-2011 19:15:04	6-Oct-2011 19:15:16 (12sec)
+Reduce	1	1		0	0	6-Oct-2011 19:15:10	6-Oct-2011 19:15:18 (8sec)
+Cleanup	1	1		0	0	6-Oct-2011 19:15:11	6-Oct-2011 19:15:20 (9sec)
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_m_000007 7sec
+task_1317928501754_0001_m_000006 6sec
+task_1317928501754_0001_m_000005 5sec
+task_1317928501754_0001_m_000004 4sec
+task_1317928501754_0001_m_000003 3sec
+The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-Oct-2011 19:15:16 (14sec)
+
+Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec
+Average time taken by shuffle tasks: 8sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 8sec
+The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-Oct-2011 19:15:18 (16sec)
+
+Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 0sec
+The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-Oct-2011 19:15:18 (16sec)
+=========
+
+FAILED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000002	6-Oct-2011 19:15:04	6-Oct-2011 19:15:06 (2sec)		
+
+SUCCEEDED JOB_SETUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_s_000001	6-Oct-2011 19:15:03	6-Oct-2011 19:15:04 (1sec)	
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000007	6-Oct-2011 19:15:09	6-Oct-2011 19:15:16 (7sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000006	6-Oct-2011 19:15:08	6-Oct-2011 19:15:14 (6sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000005	6-Oct-2011 19:15:07	6-Oct-2011 19:15:12 (5sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000004	6-Oct-2011 19:15:06	6-Oct-2011 19:15:10 (4sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000003	6-Oct-2011 19:15:05	6-Oct-2011 19:15:08 (3sec)		
+
+SUCCEEDED REDUCE task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_r_000008	6-Oct-2011 19:15:10	6-Oct-2011 19:15:18 (8sec)	
+
+SUCCEEDED JOB_CLEANUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_c_000009	6-Oct-2011 19:15:11	6-Oct-2011 19:15:20 (9sec)	
+
+JOB_SETUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_s_000001_1	6-Oct-2011 19:15:03	6-Oct-2011 19:15:04 (1sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_s_000001_1
+
+MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_m_000007_1	6-Oct-2011 19:15:09	6-Oct-2011 19:15:16 (7sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000007_1
+attempt_1317928501754_0001_m_000002_1	6-Oct-2011 19:15:04	6-Oct-2011 19:15:06 (2sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000002_1
+attempt_1317928501754_0001_m_000006_1	6-Oct-2011 19:15:08	6-Oct-2011 19:15:14 (6sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000006_1
+attempt_1317928501754_0001_m_000005_1	6-Oct-2011 19:15:07	6-Oct-2011 19:15:12 (5sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000005_1
+attempt_1317928501754_0001_m_000004_1	6-Oct-2011 19:15:06	6-Oct-2011 19:15:10 (4sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000004_1
+attempt_1317928501754_0001_m_000003_1	6-Oct-2011 19:15:05	6-Oct-2011 19:15:08 (3sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000003_1
+
+REDUCE task list for job_1317928501754_0001
+TaskId		StartTime	ShuffleFinished	SortFinished	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_r_000008_1	6-Oct-2011 19:15:10	6-Oct-2011 19:15:18 (8sec)	6-Oct-2011 19:15:18 (0sec)6-Oct-2011 19:15:18 (8sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_r_000008_1
+
+JOB_CLEANUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_c_000009_1	6-Oct-2011 19:15:11	6-Oct]-2011 19:15:20 (9sec...> but was:<...xml
+Submitted At: 6-[十月-2011 19:15:01
+Launched At: 6-十月-2011 19:15:02 (1sec)
+Finished At: 6-十月-2011 19:15:16 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|group1                        |counter1                      |5         |5         |5         
+|group1                        |counter2                      |10        |10        |10        
+|group2                        |counter1                      |15        |15        |15        
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	1	1		0	0	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)
+Map	6	5		1	0	6-十月-2011 19:15:04	6-十月-2011 19:15:16 (12sec)
+Reduce	1	1		0	0	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)
+Cleanup	1	1		0	0	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_m_000007 7sec
+task_1317928501754_0001_m_000006 6sec
+task_1317928501754_0001_m_000005 5sec
+task_1317928501754_0001_m_000004 4sec
+task_1317928501754_0001_m_000003 3sec
+The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-十月-2011 19:15:16 (14sec)
+
+Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec
+Average time taken by shuffle tasks: 8sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 8sec
+The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+
+Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 0sec
+The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+=========
+
+FAILED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000002	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)		
+
+SUCCEEDED JOB_SETUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_s_000001	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)	
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000007	6-十月-2011 19:15:09	6-十月-2011 19:15:16 (7sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000006	6-十月-2011 19:15:08	6-十月-2011 19:15:14 (6sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000005	6-十月-2011 19:15:07	6-十月-2011 19:15:12 (5sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000004	6-十月-2011 19:15:06	6-十月-2011 19:15:10 (4sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000003	6-十月-2011 19:15:05	6-十月-2011 19:15:08 (3sec)		
+
+SUCCEEDED REDUCE task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_r_000008	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)	
+
+SUCCEEDED JOB_CLEANUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_c_000009	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)	
+
+JOB_SETUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_s_000001_1	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_s_000001_1
+
+MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_m_000007_1	6-十月-2011 19:15:09	6-十月-2011 19:15:16 (7sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000007_1
+attempt_1317928501754_0001_m_000002_1	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000002_1
+attempt_1317928501754_0001_m_000006_1	6-十月-2011 19:15:08	6-十月-2011 19:15:14 (6sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000006_1
+attempt_1317928501754_0001_m_000005_1	6-十月-2011 19:15:07	6-十月-2011 19:15:12 (5sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000005_1
+attempt_1317928501754_0001_m_000004_1	6-十月-2011 19:15:06	6-十月-2011 19:15:10 (4sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000004_1
+attempt_1317928501754_0001_m_000003_1	6-十月-2011 19:15:05	6-十月-2011 19:15:08 (3sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000003_1
+
+REDUCE task list for job_1317928501754_0001
+TaskId		StartTime	ShuffleFinished	SortFinished	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_r_000008_1	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)	6-十月-2011 19:15:18 (0sec)6-十月-2011 19:15:18 (8sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_r_000008_1
+
+JOB_CLEANUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_c_000009_1	6-十月-2011 19:15:11	6-十月]-2011 19:15:20 (9sec...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.hadoop.mapreduce.jobhistory.TestHistoryViewerPrinter.testHumanPrinterAll(TestHistoryViewerPrinter.java:265)
+]]></failure>
+    <system-out><![CDATA[2017-05-23 00:52:10,520 INFO  [main] jobhistory.TestHistoryViewerPrinter (TestHistoryViewerPrinter.java:run(868)) - out = 
+Hadoop job: job_1317928501754_0001
+=====================================
+User: rkanter
+JobName: my job
+JobConf: /tmp/job.xml
+Submitted At: 6-十月-2011 19:15:01
+Launched At: 6-十月-2011 19:15:02 (1sec)
+Finished At: 6-十月-2011 19:15:16 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|group1                        |counter1                      |5         |5         |5         
+|group1                        |counter2                      |10        |10        |10        
+|group2                        |counter1                      |15        |15        |15        
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	1	1		0	0	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)
+Map	6	5		1	0	6-十月-2011 19:15:04	6-十月-2011 19:15:16 (12sec)
+Reduce	1	1		0	0	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)
+Cleanup	1	1		0	0	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1317928501754_0001_m_000003: 3sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_m_000007 7sec
+task_1317928501754_0001_m_000006 6sec
+task_1317928501754_0001_m_000005 5sec
+task_1317928501754_0001_m_000004 4sec
+task_1317928501754_0001_m_000003 3sec
+The last map task task_1317928501754_0001_m_000007 finished at (relative to the Job launch time): 6-十月-2011 19:15:16 (14sec)
+
+Time taken by best performing shuffle task task_1317928501754_0001_r_000008: 8sec
+Average time taken by shuffle tasks: 8sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 8sec
+The last shuffle task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+
+Time taken by best performing reduce task task_1317928501754_0001_r_000008: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1317928501754_0001_r_000008 0sec
+The last reduce task task_1317928501754_0001_r_000008 finished at (relative to the Job launch time): 6-十月-2011 19:15:18 (16sec)
+=========
+
+FAILED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000002	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)		
+
+SUCCEEDED JOB_SETUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_s_000001	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)	
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000007	6-十月-2011 19:15:09	6-十月-2011 19:15:16 (7sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000006	6-十月-2011 19:15:08	6-十月-2011 19:15:14 (6sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000005	6-十月-2011 19:15:07	6-十月-2011 19:15:12 (5sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000004	6-十月-2011 19:15:06	6-十月-2011 19:15:10 (4sec)		
+
+SUCCEEDED MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error	InputSplits
+====================================================
+task_1317928501754_0001_m_000003	6-十月-2011 19:15:05	6-十月-2011 19:15:08 (3sec)		
+
+SUCCEEDED REDUCE task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_r_000008	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)	
+
+SUCCEEDED JOB_CLEANUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	Error
+====================================================
+task_1317928501754_0001_c_000009	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)	
+
+JOB_SETUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_s_000001_1	6-十月-2011 19:15:03	6-十月-2011 19:15:04 (1sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_s_000001_1
+
+MAP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_m_000007_1	6-十月-2011 19:15:09	6-十月-2011 19:15:16 (7sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000007_1
+attempt_1317928501754_0001_m_000002_1	6-十月-2011 19:15:04	6-十月-2011 19:15:06 (2sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000002_1
+attempt_1317928501754_0001_m_000006_1	6-十月-2011 19:15:08	6-十月-2011 19:15:14 (6sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000006_1
+attempt_1317928501754_0001_m_000005_1	6-十月-2011 19:15:07	6-十月-2011 19:15:12 (5sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000005_1
+attempt_1317928501754_0001_m_000004_1	6-十月-2011 19:15:06	6-十月-2011 19:15:10 (4sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000004_1
+attempt_1317928501754_0001_m_000003_1	6-十月-2011 19:15:05	6-十月-2011 19:15:08 (3sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_m_000003_1
+
+REDUCE task list for job_1317928501754_0001
+TaskId		StartTime	ShuffleFinished	SortFinished	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_r_000008_1	6-十月-2011 19:15:10	6-十月-2011 19:15:18 (8sec)	6-十月-2011 19:15:18 (0sec)6-十月-2011 19:15:18 (8sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_r_000008_1
+
+JOB_CLEANUP task list for job_1317928501754_0001
+TaskId		StartTime	FinishTime	HostName	Error	TaskLogs
+====================================================
+attempt_1317928501754_0001_c_000009_1	6-十月-2011 19:15:11	6-十月-2011 19:15:20 (9sec)	localhost	http://t:1234/tasklog?attemptid=attempt_1317928501754_0001_c_000009_1
+
+FAILED task attempts by nodes
+Hostname	FailedTasks
+===============================
+localhost	task_1317928501754_0001_m_000002, 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testJSONPrinterAll" classname="org.apache.hadoop.mapreduce.jobhistory.TestHistoryViewerPrinter" time="0.04"/>
+  <testcase name="testJSONPrinter" classname="org.apache.hadoop.mapreduce.jobhistory.TestHistoryViewerPrinter" time="0.005"/>
+</testsuite>

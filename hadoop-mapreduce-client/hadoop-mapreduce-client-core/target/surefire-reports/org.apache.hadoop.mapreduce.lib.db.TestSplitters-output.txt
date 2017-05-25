@@ -1,0 +1,14 @@
+2017-05-23 00:52:12,308 WARN  [Thread-2] db.FloatSplitter (FloatSplitter.java:split(49)) - Generating splits for a floating-point index column. Due to the
+2017-05-23 00:52:12,310 WARN  [Thread-2] db.FloatSplitter (FloatSplitter.java:split(50)) - imprecise representation of floating-point values in Java, this
+2017-05-23 00:52:12,311 WARN  [Thread-2] db.FloatSplitter (FloatSplitter.java:split(51)) - may result in an incomplete import.
+2017-05-23 00:52:12,311 WARN  [Thread-2] db.FloatSplitter (FloatSplitter.java:split(52)) - You are strongly encouraged to choose an integral split column.
+2017-05-23 00:52:12,313 WARN  [Thread-2] db.FloatSplitter (FloatSplitter.java:split(49)) - Generating splits for a floating-point index column. Due to the
+2017-05-23 00:52:12,313 WARN  [Thread-2] db.FloatSplitter (FloatSplitter.java:split(50)) - imprecise representation of floating-point values in Java, this
+2017-05-23 00:52:12,313 WARN  [Thread-2] db.FloatSplitter (FloatSplitter.java:split(51)) - may result in an incomplete import.
+2017-05-23 00:52:12,313 WARN  [Thread-2] db.FloatSplitter (FloatSplitter.java:split(52)) - You are strongly encouraged to choose an integral split column.
+2017-05-23 00:52:12,327 WARN  [Thread-3] db.TextSplitter (TextSplitter.java:split(66)) - Generating splits for a textual index column.
+2017-05-23 00:52:12,327 WARN  [Thread-3] db.TextSplitter (TextSplitter.java:split(67)) - If your database sorts in a case-insensitive order, this may result in a partial import or duplicate records.
+2017-05-23 00:52:12,327 WARN  [Thread-3] db.TextSplitter (TextSplitter.java:split(69)) - You are strongly encouraged to choose an integral split column.
+2017-05-23 00:52:12,328 WARN  [Thread-3] db.TextSplitter (TextSplitter.java:split(66)) - Generating splits for a textual index column.
+2017-05-23 00:52:12,328 WARN  [Thread-3] db.TextSplitter (TextSplitter.java:split(67)) - If your database sorts in a case-insensitive order, this may result in a partial import or duplicate records.
+2017-05-23 00:52:12,329 WARN  [Thread-3] db.TextSplitter (TextSplitter.java:split(69)) - You are strongly encouraged to choose an integral split column.

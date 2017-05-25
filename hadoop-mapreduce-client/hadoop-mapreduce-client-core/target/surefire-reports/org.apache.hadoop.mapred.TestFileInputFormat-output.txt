@@ -1,0 +1,35 @@
+2017-05-23 00:50:54,327 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 1
+2017-05-23 00:50:54,334 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:54,750 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:50:55,328 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 3
+2017-05-23 00:50:55,346 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 1
+2017-05-23 00:50:55,346 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:55,509 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 4
+2017-05-23 00:50:55,516 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 1
+2017-05-23 00:50:55,517 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:55,604 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 1
+2017-05-23 00:50:55,605 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:55,632 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 2
+2017-05-23 00:50:55,642 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 1
+2017-05-23 00:50:55,643 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:55,662 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 2
+2017-05-23 00:50:55,664 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 1
+2017-05-23 00:50:55,666 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:55,844 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 5
+2017-05-23 00:50:55,847 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 5
+2017-05-23 00:50:55,847 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:55,981 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 3
+2017-05-23 00:50:55,985 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 5
+2017-05-23 00:50:55,986 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:56,079 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 4
+2017-05-23 00:50:56,081 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 5
+2017-05-23 00:50:56,081 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:56,231 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 5
+2017-05-23 00:50:56,231 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:56,248 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 2
+2017-05-23 00:50:56,249 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 5
+2017-05-23 00:50:56,249 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:56,282 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 2
+2017-05-23 00:50:56,284 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:<init>(62)) - Running with numThreads: 5
+2017-05-23 00:50:56,284 INFO  [main] mapred.TestFileInputFormat (TestFileInputFormat.java:setup(73)) - Using Test Dir: /Users/lixiuliang/IdeaProjects/hadoop/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/target/test-dir/TestFIF
+2017-05-23 00:50:56,396 INFO  [main] mapred.FileInputFormat (FileInputFormat.java:listStatus(256)) - Total input files to process : 5

@@ -1,0 +1,18 @@
+2017-05-23 00:51:52,604 INFO  [Thread-2] mapred.Task (Task.java:run(843)) - PREEMPTION TASK: setting mustPreempt to true given true for attempt__0000_r_000000_0 task status: STARTING
+2017-05-23 00:51:53,818 WARN  [Thread-3] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:52:00,120 INFO  [Thread-8] mapred.Task (Task.java:run(843)) - PREEMPTION TASK: setting mustPreempt to true given true for attempt__0000_r_000000_0 task status: STARTING
+2017-05-23 00:52:06,149 FATAL [Thread-12] mapred.Task (Task.java:run(852)) - Task exceeded the limits: org.apache.hadoop.mapred.Task$TaskReporter$TaskLimitException: too much write to local file system. current value is 2080 the limit is 1023
+	at org.apache.hadoop.mapred.Task$TaskReporter.checkTaskLimits(Task.java:772)
+	at org.apache.hadoop.mapred.TestTaskProgressReporter$DummyTaskReporter.checkTaskLimits(TestTaskProgressReporter.java:162)
+	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:814)
+	at java.lang.Thread.run(Thread.java:748)
+
+2017-05-23 00:52:06,149 FATAL [Thread-12] mapred.Task (Task.java:run(858)) - Killing attempt__0000_r_000000_0
+2017-05-23 00:52:06,151 INFO  [Thread-12] util.ExitUtil (ExitUtil.java:terminate(210)) - Exiting with status 69: ExitException
+2017-05-23 00:52:06,151 ERROR [Thread-12] util.ExitUtil (ExitUtil.java:terminate(213)) - Terminate called
+69: ExitException
+	at org.apache.hadoop.util.ExitUtil.terminate(ExitUtil.java:304)
+	at org.apache.hadoop.util.ExitUtil.terminate(ExitUtil.java:292)
+	at org.apache.hadoop.mapred.Task$TaskReporter.run(Task.java:860)
+	at java.lang.Thread.run(Thread.java:748)
+Uncaught exception: 69: ExitException

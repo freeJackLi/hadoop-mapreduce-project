@@ -1,0 +1,1 @@
+2017-05-23 00:52:59,381 INFO  [main] reduce.ShuffleSchedulerImpl (ShuffleSchedulerImpl.java:checkAndInformMRAppMaster(345)) - Reporting fetch failure for attempt_test_0000_m_000000_0 to MRAppMaster.

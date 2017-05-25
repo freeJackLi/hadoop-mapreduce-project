@@ -1,0 +1,2 @@
+2017-05-23 00:52:11,365 WARN  [Thread-1] db.DataDrivenDBInputFormat (DataDrivenDBInputFormat.java:setBoundingQuery(268)) - Could not find $CONDITIONS token in query: query; splits may not partition data.
+2017-05-23 00:52:11,585 INFO  [Thread-4] db.OracleDBRecordReader (OracleDBRecordReader.java:setSessionTimeZone(129)) - Time zone has been set to GMT

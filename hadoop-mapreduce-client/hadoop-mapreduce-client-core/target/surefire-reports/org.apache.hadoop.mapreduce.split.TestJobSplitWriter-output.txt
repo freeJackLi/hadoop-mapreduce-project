@@ -1,0 +1,3 @@
+2017-05-23 00:52:45,551 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:52:47,032 WARN  [main] split.JobSplitWriter (JobSplitWriter.java:writeNewSplits(137)) - Max block location exceeded for split: /some/path:0+1 splitsize: 5 maxsize: 4
+2017-05-23 00:52:47,403 WARN  [main] split.JobSplitWriter (JobSplitWriter.java:writeOldSplits(168)) - Max block location exceeded for split: /some/path:0+1 splitsize: 5 maxsize: 4

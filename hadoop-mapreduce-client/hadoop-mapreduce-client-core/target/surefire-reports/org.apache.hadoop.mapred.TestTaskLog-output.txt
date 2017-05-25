@@ -1,0 +1,1 @@
+2017-05-23 00:51:49,895 WARN  [Thread-0] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

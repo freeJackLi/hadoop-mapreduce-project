@@ -1,0 +1,3 @@
+2017-05-23 00:52:43,277 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:52:43,956 INFO  [main] security.TokenCache (TokenCache.java:obtainTokensForNamenodesInternal(143)) - Got dt for null; Kind: token0, Service: service3, Ident: 
+2017-05-23 00:52:43,984 INFO  [main] security.TokenCache (TokenCache.java:obtainTokensForNamenodesInternal(143)) - Got dt for null; Kind: token0, Service: service3, Ident: 

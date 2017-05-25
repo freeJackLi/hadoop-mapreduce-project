@@ -1,0 +1,17 @@
+2017-05-23 00:53:03,144 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:53:03,317 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1393)) - Running job: job_job_000_0001
+2017-05-23 00:53:03,324 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1414)) - Job job_job_000_0001 running in uber mode : true
+2017-05-23 00:53:03,328 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1421)) -  map 100% reduce 100%
+2017-05-23 00:53:03,330 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1432)) - Job job_job_000_0001 completed successfully
+The output of job.toString() is : 
+Job: job_job_000_0001
+Job File: tmp-jobfile
+Job Tracking URL : tmp-url
+Uber job : true
+Number of maps: 5
+Number of reduces: 5
+map() completion: 1.0
+reduce() completion: 1.0
+Job state: SUCCEEDED
+retired: false
+reason for failure:  

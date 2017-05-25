@@ -1,0 +1,2 @@
+2017-05-23 00:52:34,502 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:52:34,557 ERROR [main] jobcontrol.JobControl (JobControl.java:isCircular(333)) - Job control has circular dependency for the  job job1

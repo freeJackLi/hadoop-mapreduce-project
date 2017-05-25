@@ -1,0 +1,24 @@
+Killed job job_1234654654_001
+The job job_1234654654_002 has already been killed.
+Could not mark the job job_1234654654_003 as killed, as it has already failed.
+Killed job job_1234654654_004
+2017-05-23 00:53:07,947 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 1 attempt(s). Sleeping for 2 seconds and retrying.
+2017-05-23 00:53:09,953 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 2 attempt(s). Sleeping for 2 seconds and retrying.
+2017-05-23 00:53:11,958 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 3 attempt(s). Sleeping for 2 seconds and retrying.
+Could not find job job_1234654656_002
+2017-05-23 00:53:13,981 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 1 attempt(s). Sleeping for 2 seconds and retrying.
+2017-05-23 00:53:15,982 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 2 attempt(s). Sleeping for 2 seconds and retrying.
+2017-05-23 00:53:17,987 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 3 attempt(s). Sleeping for 2 seconds and retrying.
+Could not find job job_1234654656_002
+Error: Invalid task-type: JOB_SETUP
+Usage: job [-list-attempt-ids <job-id> <task-type> <task-state>]. Valid values for <task-type> are MAP REDUCE. Valid values for <task-state> are pending, running, completed, failed, killed
+Error: Invalid task-type: JOB_CLEANUP
+Usage: job [-list-attempt-ids <job-id> <task-type> <task-state>]. Valid values for <task-type> are MAP REDUCE. Valid values for <task-state> are pending, running, completed, failed, killed
+Error: Invalid task-state: complete
+Usage: job [-list-attempt-ids <job-id> <task-type> <task-state>]. Valid values for <task-type> are MAP REDUCE. Valid values for <task-state> are pending, running, completed, failed, killed
+2017-05-23 00:53:20,252 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 1 attempt(s). Sleeping for 2 seconds and retrying.
+2017-05-23 00:53:22,256 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 2 attempt(s). Sleeping for 2 seconds and retrying.
+2017-05-23 00:53:24,262 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 3 attempt(s). Sleeping for 2 seconds and retrying.
+Could not find job job_1015298225799_0016
+2017-05-23 00:53:26,398 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-23 00:53:26,442 INFO  [main] tools.CLI (CLI.java:getJob(666)) - Could not obtain job info after 1 attempt(s). Sleeping for 2 seconds and retrying.
